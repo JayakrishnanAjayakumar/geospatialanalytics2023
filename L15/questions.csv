@@ -1,0 +1,42 @@
+qNo,result_type,results,isOrder,question,database,sort_key
+1,set,1.pkl,False,select all rows and columns from actor table ,sqlite-sakila,actor_id
+2,set,2.pkl,False,select all rows and columns from staff table ,sqlite-sakila,staff_id
+3,set,3.pkl,False,"Select staff_id,first_name and last_name from staff table",sqlite-sakila,staff_id
+4,set,4.pkl,False,Select first_name and last_name from actor table,sqlite-sakila,first_name
+5,set,5.pkl,False,Select the unique set of cities from employees table,chinook,City
+6,set,6.pkl,False,From film table select films having length more than 100 minutes,sqlite-sakila,film_id
+7,set,7.pkl,False,Select all actors with first name JENNIFER from actor table,sqlite-sakila,actor_id
+8,set,8.pkl,False,Select all employees from the employees table who are from Calgary city,chinook,EmployeeId
+9,set,9.pkl,False,Retrieve employees with title as Sales Manager and city as Calgary,chinook,EmployeeId
+10,set,10.pkl,False,Retrieve all films from film table with length greater than 100 minutes and rating equals to PG,sqlite-sakila,film_id
+11,set,11.pkl,False,Retrieve all films from film table with length greater than 100 minutes or rating equals to PG,sqlite-sakila,film_id
+12,set,12.pkl,False,Select all invoices from invoices table where BillingCountry is either Canada or USA,chinook,InvoiceId
+13,set,13.pkl,False,Select all invoices from invoices table where Total is greater than 1 and less than 5 or total greater than 10 and less than 100,chinook,InvoiceId
+14,set,14.pkl,False,Select all invoices from invoices table that have BillingCountry other than Canada,chinook,InvoiceId
+15,set,15.pkl,True,Select first_name and last_name from actor table and sort by actor first_name ascending,sqlite-sakila,
+16,set,16.pkl,True,Sort payment table by amount in descending order,sqlite-sakila,
+17,set,17.pkl,True,Select first_name and last_name from actor table and sort by actor first_name ascending and actor last_name descending,sqlite-sakila,
+18,scalar,18.pkl,False,Select minimum amount from payment table.,sqlite-sakila,
+19,scalar,19.pkl,False,Select maximum amount from payment table.,sqlite-sakila,
+20,scalar,20.pkl,False,Select average amount from payment table.,sqlite-sakila,
+21,scalar,21.pkl,False,Select total amount from payment table.,sqlite-sakila,
+22,scalar,22.pkl,False,Select how many records in payment table.,sqlite-sakila,
+23,scalar,23.pkl,False,Select grant total of Total from invoices where BillingCountry is Germany.,chinook,
+24,scalar,24.pkl,False,Select total number of employees with a title General Manager from employees table,chinook,
+25,scalar,25.pkl,False,Select total number of employees with a Country Canada from employees table,chinook,
+26,set,26.pkl,False,Select sum Total of invoices for each BillingCountry,chinook,BillingCountry
+27,set,27.pkl,False,Select number of invoices for each BillingCountry,chinook,BillingCountry
+28,set,28.pkl,False,select average length of films from film table grouped on rating.,sqlite-sakila,rating
+29,set,29.pkl,False,Select maximum rental_rate of films from film table grouped on rating.,sqlite-sakila,rating
+30,set,30.pkl,False,Select average rental_rate for each rating for each release_year.,sqlite-sakila,rating
+31,set,31.pkl,False,Select total number of invoices for each BillingCity for the BillingCountry Germany.,chinook,BillingCity
+32,set,32.pkl,True,Select sum total of Total for invoices for each BillingCity for the BillingCountry Germany and order the records by the sum total in descending order.,chinook,
+33,set,33.pkl,True,Select sum total of Total for invoices for each BillingCity for the BillingCountry Germany and order the records by the sum total in descending order. Name the sum total of Total as TotalAmount,chinook,
+34,set,34.pkl,False,Select total number of invoices for each BillingCity for the BillingCountry Germany. Name the total number of invoices column as TotalInvoices,chinook,BillingCity
+35,set,35.pkl,False,Display the city along with country from city and country table.,sqlite-sakila,city
+36,set,36.pkl,False,"Select title and actor first_name and actor last_name for all the films from film, actor and film_actor tables",sqlite-sakila,title
+37,set,37.pkl,False,Select title of all English movies from film table,sqlite-sakila,title
+38,set,38.pkl,False,Select artist Name and the total number of albums composed by them as TotalAlbums,chinook,Name
+39,set,39.pkl,True,select customers first_name and last_name and the total amount they spend as TotalAmount. Sort the results by total amount in descending order.,sqlite-sakila,
+40,set,40.pkl,True,select customers first_name and last_name and the total number of rentals they had as TotalRentals. Sort the results by total rentals in descending order,sqlite-sakila,
+40,set,40.pkl,True,select customers first_name and last_name and the total number of rentals they had as TotalRentals. Sort the results by total rentals in descending order,sqlite-sakila,
